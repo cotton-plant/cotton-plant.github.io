@@ -179,14 +179,14 @@ article:hover .txt strong{color: #fff;}
 
 /* 479 ------------------------------------------------- */
 @media screen and (max-width:479px) {
-  header{position: fixed; width: 100%; height: 40px; background-color: transparent; z-index: 5;}
+  header{position: fixed; width: 100%; height: 40px; background-color: transparent; z-index: 5; }
   nav{display: none;}
   section{width: 100%; margin-left: 0px; z-index: 4;}
   article{display: none;}
   article:nth-child(1){display: block; position: fixed; width: 100%; height: 100%;}
 
-  header h1{width: 20px; height: 140px; margin-left: -70px;}
-  #gnb{width: 250px; top: 140px; right: 50%; /*margin-right: -125px;*/}
+  header h1{top: 20px; width: 140px; margin-left: -70px;}
+  #gnb{width: 250px; top: 140px; right: 50%; margin-right: -125px;}
   #gnb a{width: 100%; background: #000; box-sizing: border-box; margin: 8px 0px; opacity: 0.5; color: #fff;}
   #gnb a:hover{opacity: 1; transform: scale(1.1);}  
 }
